@@ -1,0 +1,163 @@
+
+body{
+    font-size: 25px;
+    background-color: palegoldenrod;
+}
+
+.header{
+    text-align: center;
+    margin: 50px;
+}
+
+hr{
+    margin: 50px;
+}
+
+.invoice{
+    text-align: center;
+    border: 3px outset #453c7a;
+    margin: 0 300px 50px;
+}
+
+.details{
+    padding: 0px 200px;
+
+}
+
+.date{
+    margin: 20px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    margin: 4px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#con{
+    margin: 15px 0px;
+    cursor: default;
+}
+
+.domand{
+    text-align: right;
+    padding: 0 30px;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#price{
+    margin: 0;
+}
+
+span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px;
+}
+
+h3{
+    text-align: right;
+    border: 3px outset #453c7a;
+    margin-left: 760px;
+    cursor: default;
+    font-size: 28px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+h3:hover{
+    background-color: #8a4e1e;
+    color: wheat;
+}
+
+ul li{
+    border: 1px solid #453c7a;
+    list-style: none;
+    font-size: 25px;
+    padding: 7px 10px 4px 4px;
+    text-align: right;
+    cursor: default;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+ul li:hover{
+    background-color: #8a4e1e;
+    color: wheat;
+}
+li ul li{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+#sss{
+    font-size: 25px;
+    margin: 0;
+}
+
+h4{
+    margin: 0px;
+}
+
+.type{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+    cursor: default;
+}
+
+
+.s2{
+    display: none;
+}
+
+.p2{
+    display: none;
+}
+.ppa{
+    display: none;
+}
+.ppb{
+    display: none;
+}
+.ppc{
+    display: none;
+}
+.ppd{
+    display: none;
+}
+
+
+.j2{
+    display: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+
+button{
+    font-size: 25px;
+    padding: 8px 18px;
+    border: 3px outset #453c7a;
+    background-color: palegoldenrod;
+    margin-bottom: -2px;
+}
+
+button:hover{
+    background-color: #8a4e1e;
+    color: wheat;
+}
